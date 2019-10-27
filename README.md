@@ -1,6 +1,7 @@
 # Generic patch plugin
 
-This plugin allows you to overwrite modules and assets from a source folder with files from a patch folder in a generic way.
+This plugin allows you to overwrite modules and assets from a source folder with files from a patch folder in a generic way.  
+It may be useful for patching third party code or even to build white-label apps which are based on a common core but add/change behavior through their custom patches.
 
 ## Usage
 
@@ -34,6 +35,7 @@ module.exports = {
 };
 ```
 
-## More information
+## Examples
 
-Will follow in short time.
+Basic examples can be found in the `example` folder.
+A more complex scenario of a react application can be found [here](https://github.com/dtmzr/poke-app).
